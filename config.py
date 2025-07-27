@@ -24,7 +24,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://files.catbox.moe/asmdx2.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7793257011 8051395759').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "Getyourlink_files_bot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Getyourlink01bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -64,7 +64,7 @@ SHORTLINK_API = environ.get("SHORTLINK_API", "") # shortlink api
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
 
 # Website Info:
-WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
+WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 WEBSITE_URL = environ.get("WEBSITE_URL", "https://getyourlink01.blogspot.com/2025/07/get.html") # For More Information Check Video On Yt - @Tech_VJ
